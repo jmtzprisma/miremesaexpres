@@ -1,0 +1,15 @@
+/* all agent custom css here */
+.agent-selector .select2-container .select2-selection--single {
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.agent-selector .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 40px;
+}
+
+.agent-selector .select2-container--default .select2-selection--single .select2-selection__arrow {
+    line-height: 40px;
+    height: 40px;
+}

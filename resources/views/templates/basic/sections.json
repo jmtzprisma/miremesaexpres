@@ -1,0 +1,342 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1800x840"
+                }
+            },
+            "heading": "text",
+            "description": "text",
+            "button_text": "text",
+            "button_link": "text",
+            "youtube_link": "text"
+        }
+    },
+    "breadcrumb": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Breadcrumb",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1920x300"
+                }
+            }
+        }
+    },
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "about": {
+        "builder": true,
+        "name": "About Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "720x460"
+                }
+            },
+            "heading": "text",
+            "description": "textarea"
+        },
+        "element": {
+            "feature_item": "text",
+            "modal": true
+        }
+    },
+    "app": {
+        "builder": true,
+        "name": "App Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "630x635"
+                },
+                "play_store_icon": {
+                    "size": "200x60"
+                },
+                "app_store_icon": {
+                    "size": "200x60"
+                }
+            },
+            "heading": "text",
+            "short_description": "textarea",
+            "play_store_url": "text",
+            "app_store_url": "text"
+        },
+        "element": {
+            "key_feature_item": "text",
+            "modal": true
+        }
+    },
+    "service": {
+        "builder": true,
+        "name": "Service Area",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "630x630"
+                }
+            },
+            "heading": "text",
+            "description_one": "textarea",
+            "description_two": "textarea",
+            "button_link": "text",
+            "button_text": "text"
+        }
+    },
+    "how_to_receive": {
+        "builder": true,
+        "name": "How to Receive",
+        "content": {
+            "heading": "text",
+            "description": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "transfer": {
+        "builder": true,
+        "name": "Transfer Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "720x460"
+                }
+            },
+            "heading": "text",
+            "description": "text",
+            "button_link": "text",
+            "button_text": "text"
+        },
+        "element": {
+            "key_features": "text",
+            "modal": true
+        }
+    },
+    "choose_us": {
+        "builder": true,
+        "name": "Why Choose Us",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "635x455"
+                }
+            },
+            "heading": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "testimonial": {
+        "builder": true,
+        "name": "Testimonial Section",
+        "content": {
+            "heading": "text",
+            "description": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "128x128"
+                }
+            },
+            "name": "text",
+            "designation": "text",
+            "star_count": "text",
+            "date": "text",
+            "description": "textarea",
+            "modal": false
+        }
+    },
+    "video": {
+        "builder": true,
+        "name": "Video Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "1150x635"
+                }
+            },
+            "heading": "text",
+            "description": "text",
+            "youtube_link": "text"
+        }
+    },
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "element": {
+            "title": "text",
+            "digit": "text",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "how_work": {
+        "builder": true,
+        "name": "How to Send",
+        "content": {
+            "heading": "text",
+            "description": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "text",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "630x460"
+                }
+            },
+            "heading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea-nic",
+            "modal": false
+        }
+    },
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "heading": "text",
+            "description": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "1245x840",
+                    "thumb": "415x280"
+                }
+            },
+            "title": "text",
+            "description": "textarea-nic",
+            "modal": false
+        }
+    },
+    "brand": {
+        "builder": true,
+        "name": "Brand Section",
+        "element": {
+            "images": {
+                "image": {
+                    "size": "130x50"
+                }
+            },
+            "modal": true
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "policy_pages": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "details": "textarea-nic",
+            "modal": false
+        }
+    },
+    "login": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Login Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "660x625"
+                }
+            }
+        }
+    },
+    "register": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Registration Page",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "660x625"
+                }
+            }
+        }
+    },
+    "contact": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "525x395"
+                }
+            },
+            "title": "text",
+            "description": "text",
+            "email": "text",
+            "address": "text",
+            "mobile": "text",
+            "latitude": "text",
+            "longitude": "text"
+        }
+    },
+    "kyc_instruction_user": {
+        "builder": true,
+        "no_selection": true,
+        "name": "User KYC Instructions",
+        "content": {
+            "verification_instruction": "textarea",
+            "pending_instruction": "textarea"
+        }
+    },
+    "kyc_instruction_agent": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Agent KYC Instructions",
+        "content": {
+            "verification_instruction": "textarea",
+            "pending_instruction": "textarea"
+        }
+    }
+}

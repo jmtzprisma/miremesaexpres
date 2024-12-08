@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  laravel-app:
+    build:
+      context: .
+      dockerfile: Dockerfile-codeIgniter
+    container_name: miremesa
+    ports:
+      - "8038:80"
+    volumes:
+      - ./:/var/www/html/
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

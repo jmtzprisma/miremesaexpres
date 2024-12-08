@@ -1,0 +1,37 @@
+$(function() {
+    let currentPermissions = [];
+
+    window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        console.log(forms);
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    }, false);
+
+    function initial() {
+        $('.select2').select2({
+            minimumResultsForSearch: Infinity
+        });
+
+
+    }
+
+    $(document).ready(initial);
+});
+
+function searchChange() {
+    console.log("searchChange");
+}
+
+function selectedPermission() {
+    console.log("selectedPermission");
+}

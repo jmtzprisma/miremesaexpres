@@ -1,0 +1,53 @@
+# Usa una imagen base de Ubuntu
+FROM ubuntu:latest
+
+# Configura el entorno para evitar la interactividad
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Actualiza el sistema e instala las dependencias necesarias
+RUN apt-get update \
+    && apt install -y software-properties-common \
+    && add-apt-repository -y ppa:ondrej/php \
+    && apt update \
+    && apt-get install -y apache2 \
+    && apt-get install -y php8.1 \
+    && apt-get install -y php8.1-fpm \
+    && apt-get install -y php8.1-intl \
+    && apt-get install -y php8.1-simplexml \
+    && apt-get install -y php8.1-dom \
+    && apt-get install -y php8.1-mysql \
+    && apt-get install -y php8.1-gd \
+    && apt-get install -y php8.1-curl \
+    && apt-get install -y php8.1-mbstring \
+    && apt-get install -y php8.1-zip \
+    && apt-get install -y php8.1-bcmath \
+    && apt-get install -y composer \
+    && apt-get install -y nano \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+    #docker-php-ext-install mysqli
+    #docker-php-ext-enable mysqli
+    
+
+COPY ./000-default.conf /etc/apache2/sites-available/
+
+RUN a2ensite 000-default.conf
+
+RUN a2enmod rewrite
+
+WORKDIR /var/www/html/
+
+# Expone el puerto 80 (o el puerto que necesites)
+# EXPOSE 81
+
+# COPY ./ /var/www/html/
+
+# RUN chown -R ubuntu:www-data /var/www/html \
+#     && service apache2 start
+
+
+# Comando para iniciar apache y que se mantenga abierto el contenedor
+# CMD tail -f /dev/null
+
+CMD ["apache2ctl", "-D", "FOREGROUND"]

@@ -1,0 +1,227 @@
+body{
+    background-color: #fff;
+}
+
+:root {
+    --primary: #452B90;
+    --rgba-primary-1: rgba(69, 43, 144, 0.1);
+}
+
+.badge {
+    --bs-badge-padding-x: 0.65em;
+    --bs-badge-padding-y: 0.35em;
+    --bs-badge-font-size: 0.75em;
+    --bs-badge-font-weight: 700;
+    --bs-badge-color: #fff;
+    --bs-badge-border-radius: 0.75rem;
+    display: inline-block;
+    padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+    font-size: var(--bs-badge-font-size);
+    font-weight: var(--bs-badge-font-weight);
+    line-height: 1;
+    color: #000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: var(--bs-badge-border-radius);
+}
+
+.bg-primary-light {
+    background: var(--rgba-primary-1);
+}
+
+.badge--primary {
+	background: rgba(51, 189, 255);
+}
+.badge--secondary {
+	background: rgba(173, 181, 189);
+}
+.badge--danger {
+    background: rgb(247 91 96);
+}
+.badge--success {
+    background: rgba(13, 214, 147);
+}
+.badge--warning {
+    background: rgba(255, 159, 67);
+}
+.badge--info {
+    background: rgba(9, 194, 222);
+}
+
+.analytics-card .ic-n-bx .icon-box {
+    line-height: 2.575rem;
+}
+
+.icon-box {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.375rem;
+    border-radius: 0.625rem;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.analytics-card .ic-n-bx {
+    text-align: center;
+    margin-top: -38px;
+    margin-bottom: 20px;
+}
+
+.analytics-card .ana-box {
+    text-align: center;
+}
+
+.analytics-card h1,
+.analytics-card .h1,
+.analytics-card h2,
+.analytics-card .h2,
+.analytics-card h3,
+.analytics-card .h3,
+.analytics-card h4,
+.analytics-card .h4,
+.analytics-card h5,
+.analytics-card .h5,
+.analytics-card h6,
+.analytics-card .h6 {
+    line-height: 1.5;
+    font-weight: 500;
+    color: #222B40;
+}
+
+.analytics-card h5,
+.analytics-card .h5 {
+    font-size: .85rem;
+}
+
+.analytics-card h1,
+.analytics-card .h1,
+.analytics-card h2,
+.analytics-card .h2,
+.analytics-card h3,
+.analytics-card .h3,
+.analytics-card h4,
+.analytics-card .h4,
+.analytics-card h5,
+.analytics-card .h5,
+.analytics-card h6,
+.analytics-card .h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #374557;
+}
+
+.card {
+    margin-bottom: 1.563rem;
+    transition: all .5s ease-in-out;
+    position: relative;
+    border: 0rem solid transparent;
+    border-radius: 0.625rem;
+    height: calc(100% - 25px);
+    border: 1px solid #E6E6E6;
+}
+
+
+.icon-box.icon-box-md {
+    height: 3.75rem;
+    width: 3.75rem;
+    line-height: 3.55rem;
+    border-radius: 6px;
+}
+
+.icon-box {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.375rem;
+    border-radius: 0.625rem;
+}
+
+.bg-danger-light {
+    background: rgba(255, 222, 222, 0.4);
+}
+
+.me-1 {
+    margin-right: 0.25rem !important;
+}
+
+.ms-2 {
+    margin-left: 0.5rem !important;
+}
+
+.bg-secondary-light {
+    background: rgba(253, 239, 212, 0.5);
+}
+
+.bg-info-light {
+    background: rgba(211, 237, 245, 0.5);
+}
+
+.section .form--control {
+    height: 45px;
+}
+.input-group .selection{
+    height: 45px;
+}
+.exchange-form .select2-container--default .select2-selection--single .select2-selection__rendered
+{
+    line-height: 45px;
+}
+small, .sm-text {
+    font-size: 13px;
+}
+
+input.form-control, input.form--control {
+    height: 45px;
+    border-radius: 1.25rem;
+    min-height: 2.4rem;
+    padding: 0.25rem 0.9rem;
+    font-size: 0.76563rem;
+    /* height: calc(1.5em + 0.5rem + 2px); */
+    font: normal 400 1em/1 "Font Awesome 6 Free";
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: inline-block;
+}
+.sp-preview {
+    height: 45px;
+}
+.breadcrumb-plugins:has(.search-form) .btn, .breadcrumb-plugins:has(form) .btn {
+    height: 45px;
+}
+
+.bg-danger-light {
+    background: rgba(255, 222, 222);
+}
+
+.bg-danger-light, .bg-primary-light, .bg-info-light, .bg-secondary-light{
+    color: #000;
+}
